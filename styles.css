@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER SECTION */
+header {
+    background-color: #333;
+    color: white;;
+    padding: 10px 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    color: lightblue;
+}
+/* HERO SECTION */
+.hero {
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+    padding: 100px 2px;
+}
+.hero-content h1 {
+    font-size: 3rem;
+}
+.hero-content p {
+    font-size: 1.5rem;
+    margin: 20px;
+}
+.cta-button {
+    background-color: darkolivegreen;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
