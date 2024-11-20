@@ -80,7 +80,8 @@ header nav ul li a:hover {
     flex-wrap: wrap;   
 }
 .skill-item {
-    font-size: padding 20px;
+    font-size: 20px;
+    padding: 20px;
     background-color: #f9f9f9;
     border-radius: 10px;
     width: 25%;
