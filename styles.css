@@ -5,7 +5,7 @@ body {
 
 /* HEADER SECTION */
 header {
-    background-color: #333;
+    background-color: rgb(0, 50, 0);
     color: white;;
     padding: 10px 20px;
 }
@@ -13,13 +13,15 @@ header {
 header nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 30px;
 }
 
 header nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    font-size: 2rem;
 }
 
 header nav ul li a:hover {
@@ -41,10 +43,45 @@ header nav ul li a:hover {
     margin: 20px;
 }
 .cta-button {
-    background-color: darkolivegreen;
+    background-color: rgb(47, 61, 22);
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
+}
+
+/* ABOUT SECTION */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.about h2 {
+    font-size: 3rem;
+}
+.about p {
+    font-size: 2rem;
+    color: #1b1678;
+}
+
+/* SKILLS SECTION */
+.skills {
+    padding: 50px 20px;
+    text-align: center;
+}
+.skills h2 {
+    font-size: 2.5rem;
+}
+.skill-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;   
+}
+.skill-item {
+    font-size: padding 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    width: 25%;
 }
