@@ -86,3 +86,30 @@ header nav ul li a:hover {
     border-radius: 10px;
     width: 25%;
 }
+.my-projects {
+    background: #f9f9f9;
+}
+.my-projects h2 {
+    font-size: 2.5rem;
+    padding: 50px;
+}
+.projects {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.project {
+    font-size: 15px;
+    padding: 20px;
+    background-color: #edf1ef;
+    border-radius: 10px;
+    width: 26%;
+}
+.project img {
+    width: 100%
+}
+
+.project p {
+    font-size: 14px;
+}
